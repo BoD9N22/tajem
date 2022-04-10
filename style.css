@@ -51,7 +51,7 @@ h6 {
    justify-content: center;
    width: 100%;
    height: 670px;
-   background: url("D:/ProjectVS/Practical projects/1/tajem/image/intro_01.jpg") center no-repeat;
+   background: url("/image/intro_01.jpg") center no-repeat;
    background-size: cover;
 }
 
