@@ -151,12 +151,18 @@ h6 {
 }
 
 .circle__item {
+   text-decoration: none;
    display: inline-block;
    vertical-align: top;
    width: 10px;
    height: 10px;
    border: 1px solid #fff;
    border-radius: 50%;
+   transition: background-color .2s linear;
+}
+
+.circle__item:hover {
+   background-color: #00e0d0;
 }
 
 .section {
@@ -207,12 +213,25 @@ h6 {
    background-size: cover;
 }
 
-.video__item {}
+.video__item {
+   width: 100%;
+   text-align: center;
+}
+
+.video__play {
+   display: inline;
+   font-size: 150px;
+   margin-bottom: 20px;
+   transition: color .2s linear;
+}
+
+.video__play:hover {
+   color: #00e0d0;
+}
 
 .video__text {
    font-family: Rooboto, sans-serif;
    font-weight: 900;
    text-transform: uppercase;
    font-size: 16px;
-   text-align: center;
 }
