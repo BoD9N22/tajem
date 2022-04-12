@@ -235,3 +235,200 @@ h6 {
    text-transform: uppercase;
    font-size: 16px;
 }
+
+.sections {
+   width: 100%;
+   margin: 70px 0;
+}
+
+.sections__title {
+   font-family: Playfair Display, serif;
+   font-size: 22px;
+   font-weight: 700;
+   color: black;
+   text-align: center;
+   text-transform: uppercase;
+}
+
+.sections__podtitle {
+   color: #716e78;
+   font-family: Playfair Display, serif;
+   font-size: 14px;
+   font-weight: 400;
+   text-align: center;
+}
+
+.sections__podtitle:after {
+   content: "";
+   display: block;
+   width: 50px;
+   height: 3px;
+   background-color: #716e78;
+   margin: 15px auto 45px;
+}
+
+.services__all {
+   border-top: 1px solid #ebebeb;
+}
+
+.services {
+   display: flex;
+}
+
+.services__item {
+   flex: 1 1 0;
+   text-align: center;
+}
+
+.services__border {
+   border-left: 1px solid #ebebeb;
+   border-right: 1px solid #ebebeb;
+}
+
+.services__icon {
+   padding: 30px;
+}
+
+.title__p {
+   padding-top: 7px;
+}
+
+.services__title {
+   font-family: Roboto, sans-serif;
+   font-size: 14px;
+   text-transform: uppercase;
+   font-weight: 900;
+   color: black;
+   padding-bottom: 20px;
+}
+
+.services__text {
+   font-family: Roboto, sans-serif;
+   font-size: 14px;
+   font-weight: 300;
+   color: #716e78;
+   padding-bottom: 30px;
+   padding-left: 25px;
+   padding-right: 25px;
+}
+
+.team {
+   background: url(image/inrto_3.jpg) center no-repeat;
+   background-size: cover;
+}
+
+.team__title {
+   font-family: Playfair Display, serif;
+   font-size: 22px;
+   font-weight: 700;
+   color: #fff;
+   text-align: center;
+   text-transform: uppercase;
+   padding-top: 65px;
+}
+
+.team__podtitle {
+   color: #fff;
+   font-family: Playfair Display, serif;
+   font-size: 14px;
+   font-weight: 400;
+   text-align: center;
+}
+
+.team__podtitle:after {
+   content: "";
+   display: block;
+   width: 50px;
+   height: 3px;
+   background-color: #655b7f;
+   margin: 15px auto 0;
+}
+
+.team__services {
+   display: flex;
+   justify-content: space-between;
+}
+
+.team__item {
+   text-align: center;
+   padding: 45px 0 0 0;
+   position: relative;
+}
+
+.team__item:hover .team__img {
+   transform: translate3d(-10px, -10px, 0);
+}
+
+.team__item:hover .team__img img {
+   opacity: .1;
+}
+
+.team__item:hover .team__backtext {
+   opacity: .5;
+}
+
+.team__backtext {
+   width: 210px;
+   height: 120px;
+   font-size: 50px;
+   text-decoration: none;
+   color: red;
+   position: absolute;
+   top: 50%;
+   left: 0;
+   z-index: 2;
+   opacity: 0;
+   transform: translate3d(0, -50%, 0);
+   transition: opacity .4s linear;
+}
+
+.team__img {
+   background: url(image/Screenshot_1.png) center no-repeat;
+   background-size: cover;
+   transition: transform .4s linear;
+}
+
+.team__img img {
+   display: block;
+   transition: opacity .1s linear;
+}
+
+.team__im {
+   width: 220px;
+   height: 230px;
+}
+
+
+.team__border {
+   border: 1px solid #fff;
+   margin-top: -20px;
+   margin-bottom: 5px;
+}
+
+.team__text {
+   font-family: Roboto, sans-serif;
+   font-size: 13px;
+   text-transform: uppercase;
+   font-weight: 300;
+   color: rgba(255, 255, 255, 0.5);
+}
+
+.team__text__title {
+   padding-top: 13px;
+   font-family: Roboto, sans-serif;
+   font-size: 14px;
+   text-transform: uppercase;
+   font-weight: 900;
+}
+
+.team__bottom {
+   margin-top: 65px;
+   text-align: center;
+}
+
+.team__btext {
+   font-family: Roboto, sans-serif;
+   font-size: 14px;
+   font-weight: 300;
+   margin-bottom: 25px;
+}
